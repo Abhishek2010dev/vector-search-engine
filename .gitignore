@@ -4,7 +4,7 @@ __pycache__/
 *$py.class
 
 # tailwind output 
-static/output.css
+static/css/output.css
 
 # nodejs
 node_modules/
