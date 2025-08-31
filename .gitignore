@@ -6,7 +6,12 @@ __pycache__/
 # tailwind output 
 static/output.css
 
+# nodejs
 node_modules/
+package-lock.json
+
+# uv.lock
+uv.lock
 
 # C extensions
 *.so
