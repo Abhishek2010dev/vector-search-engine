@@ -5,8 +5,18 @@
       href="{{ url_for('static', path='/css/output.css') }}"
       rel="stylesheet"
     />
-    <script src="{{ url_for('static', path='/js/alpine.min.js') }}"></script>
+    <script
+      src="{{ url_for('static', path='/js/alpine.min.js') }}"
+      defer
+    ></script>
     <script src="{{ url_for('static', path='/js/htmx.min.js') }}"></script>
   </head>
-  <body></body>
+  <body>
+    <div x-data="{ count: 0 }">
+      <button x-on:click="count++" class="btn btn-primary">
+        Increment
+        <span x-text="count"></span>
+      </button>
+    </div>
+  </body>
 </html>
