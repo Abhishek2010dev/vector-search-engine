@@ -3,6 +3,11 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# tailwind output 
+static/output.css
+
+node_modules/
+
 # C extensions
 *.so
 
